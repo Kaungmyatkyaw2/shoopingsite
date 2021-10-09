@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>Login Form</title>
+
+    </head>
+
+    <style>
+
+
+button,a{
+    cursor: pointer;
+}
+
+        body{
+            background-image: url('img/Simple\ Shiny.svg');
+            background-repeat: no-repeat;
+        }
+
+        .login-container{
+            background-color: rgb(190, 183, 183, 0.2);
+            border: 2px solid black;
+        border-radius: 7px;
+        color: black;
+            width: 380px;
+                height: 320px;
+                float: right;
+                margin-right: 8%;
+                margin-top: 8%;
+        }
+
+        h2{
+            background-color: aqua;
+            padding-top: 5px;
+                padding-bottom: 5px;;
+        }
+
+        .h2{
+            padding-top: 8px;
+        }
+
+        .name{
+            margin-left: 45px;
+        }
+
+        .psw{
+            margin-right: 35px;
+        }
+
+        .forgot{
+            margin-left: 120px;
+        }
+
+        .btn-container button[type=reset]{
+            background-color:yellow ;
+                border:3px solid rgb(114, 114, 4);
+        }
+
+        .btn-container button[type=submit]{
+            background-color: rgb(34, 238, 126);
+            border:3px solid rgb(3, 126, 99)
+        }
+
+        button{
+            border-radius: 7px;
+            padding: 5px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        .btn-container{
+            margin-left: 160px;
+        }
+
+        img{
+            margin-top:20%;
+            margin-left:23%;
+        }
+
+        h1{
+            color: rgb(219, 20, 176);
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a img{
+            clear: right;
+            background-color: aqua;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: -50%;
+            margin-left: -50%;
+        }
+
+
+
+
+
+
+    </style>
+
+    <body>
+
+        <h1>Shop From Home!</h1>
+        <div class="login-container">
+
+            <form>
+
+                <center>
+                        <div class="h2">
+                <h2>Login Here</h2>
+            </div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" class="name" placeholder="Enter Your Name"/><br/><br/>
+
+                <label for="gmail">Email Address</label>
+                <input type="email" name="gmail" id="gmail" class="gmail" placeholder="Enter Your Email Address"/><br/><br/>
+
+                <label for="psw">Enter Your Password</label>
+                <input type="password" name="psw" id="psw" class="psw" placeholder="Enter Your Password"/><br/><br/>
+
+                <a href="#" class="forgot">Forgot Password?</a><br/><br/>
+
+                <div class="btn-container">
+
+                    <button type="reset">Cancel</button>
+
+                    <button type="submit">Login</button> 
+
+                </div>
+
+                
+
+            </center>
+
+            </form>
+
+        </div>
+
+        <img src="img/undraw_content_team_3epn.svg" width="400px" />
+        
+
+        <a href="intro.html"><img src="img/left-arrow.png" width="30px"></a>
+
+    </body>
+
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <title>Register Form</title>
+    </head>
+
+    <style>
+
+
+body{
+    background-image: url('img/Simple\ Shiny.svg');
+    background-repeat: no-repeat;
+}
+
+        .reg{
+            height: 430px;
+            width: 350px;
+            background-color: rgb(190, 183, 183);
+            border: 2px solid black;
+        border-radius: 7px;
+        margin-top:8%;
+        margin-right: 100px;
+        float: right;
+        }
+
+
+        img{
+            margin-top: 180px;
+            margin-left: 300px;
+        }
+
+        .reg h2{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            background-color: aqua;
+            color: black;
+        }
+
+ 
+
+        .btn button[type=reset]{
+            background-color:yellow ;
+                border:3px solid rgb(114, 114, 4);
+        }
+
+        .btn button[type=submit]{
+            background-color: rgb(34, 238, 126);
+            border:3px solid rgb(3, 126, 99)
+        }
+
+        button{
+            border-radius: 7px;
+            padding: 5px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        
+        .btn{
+            margin-top:30px;
+            margin-left:130px
+        }
+
+        .mname{
+            margin-right: 15px;
+        }
+
+        .gmail{
+            margin-right: 20px ;
+        }
+
+        .epsw{
+            margin-right: 33px;
+        }
+
+        .cpsw{
+            margin-right: 37px;
+        }
+
+        form{
+            color: black;
+            font-weight: ;
+        }
+
+        h1{
+            color: rgb(238, 23, 173);
+            text-align: center;
+        }
+
+
+
+        a img{
+            clear: right;
+            background-color: aqua;
+            padding: 5px;
+            border-radius: 5px;
+            margin-left: -50%;
+        }
+
+    </style>
+    
+    
+    <body>
+
+<center>
+    <h1>Be Happy And Be Healthy</h1>
+<div class="reg">
+    <form>
+        <center>
+        <h2>Register Here</h2>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" class="name" maxlength="6" placeholder="Enter Your First Name"/><br/><br/>
+
+        <label for="middlename">Middle Name</label>
+        <input type="text" name="middlename" id="middlename" class="mname" maxlength="6" placeholder="Enter Your Middle Name"/><br/><br/>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" class="lname" maxlength="6" placeholder="Enter Your Last Name"/><br/><br/>
+
+            <label for="gmail">Gmail Address</label>
+            <input type="email" name="gmail" id="gmail" class="gmail" maxlength="30" placeholder="Enter Your Email"/><br/><br/>
+
+                <label for="crepsw">Create Password</label>
+                <input type="password" name="psw" id="crepsw" class="epsw" maxlength="12" placeholder="Create Your Password"/><br/><br/>
+
+                <label for="copsw">Confirm Password</label>
+                <input type="password" name="psw" id="copsw" class="cpsw" maxlength="12" placeholder="Confirm Your Password" /><br/><br/>
+
+            <div class="btn">
+
+                <button type="reset">Cancel</button>
+                <button type="submit">Register</button>
+            </div>
+
+            </center>
+    </form>
+</div>
+
+</center>
+
+<img src="img/undraw_secure_login_pdn4.svg" width="400px"/>
+
+<a href="intro.html"><img src="img/left-arrow.png" width="30px"></a>
+
+    </body>
+</html>
